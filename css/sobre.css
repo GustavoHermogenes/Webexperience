@@ -1,0 +1,733 @@
+  .sobre {
+    background: url(../img/raahcientista.png) no-repeat;
+    min-height: 650px;
+    background-color: #041024;
+  }
+
+  #mini-sobre {
+    padding: 40px 0 100px;
+    display: flex;
+    /* margin-left: 300px; */
+
+  }
+
+  .sobre div div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+  }
+
+  .sobre h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-shadow: -1px 10px 4px #9C40F3;
+    margin-bottom: 45px;
+  }
+
+  .sobre div p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: #f2f2f2;
+
+  }
+
+  .sobre img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .linhasobre {
+    display: flex;
+    width: 30%;
+    height: 4px;
+    background-color: #d705dd;
+    margin-left: 35%;
+    opacity: 0.8;
+    margin-top: 3%;
+  }
+
+  .sobre2 {
+    background-color: #041024;
+    min-height: 850px;
+  }
+
+  .slideSobre {
+    background: url(../img/fndWeb.png) center;
+  }
+
+  .questoes {
+    background: url(../img/sobreslide.png) no-repeat center;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1235px;
+
+  }
+
+  .questoes div {
+    width: 1204px;
+    height: 620px;
+    /* background-color: #190B59; */
+    margin-top: 137px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .questoes div div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 45%;
+    height: 75%;
+  }
+
+
+
+
+  .questoes h1 {
+    font-size: 40px;
+    margin-top: 65px;
+    color: #f2f2f2;
+    font-weight: bold;
+  }
+
+
+  .questoes div p {
+    width: 30%;
+    align-self: center;
+    font-size: 26px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 15px;
+  }
+
+
+  .questoes div img {
+    width: 90%;
+    border-radius: 10px 20px;
+  }
+
+  .line {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041024;
+  }
+
+  .line span {
+    margin: 0;
+  }
+
+  .equipe {
+    background: url(../img/fndDevs.png) no-repeat center;
+    background-attachment: fixed;
+  }
+
+  .equipe h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .equipe img {
+    width: 280px;
+  }
+
+
+  .devs {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .devs div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    max-height: 280px;
+  }
+
+
+
+  .devs img {
+    background-color: #041024;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+
+
+  .devs div div:hover img {
+    transition: ease-in-out .3s;
+    opacity: .8;
+    filter: blur(4px);
+  }
+
+  .devs a {
+    font-size: 25px;
+    color: #ffff;
+    opacity: 0;
+    position: relative;
+    top: -268px;
+    text-shadow: 0px 6px 2px #041024;
+    text-decoration: none;
+    padding: 40% 35%;
+    text-align: center;
+  }
+
+  .devs div div:hover a {
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  #edgar a {
+    line-height: 30px;
+    top: -290px;
+  }
+
+
+  /*------------------------------------------------------------------------------------- MEDIA PARA 480 ATÉ 701 ----------------------------------------------------------------------------------------------------------------- */
+
+  @media (min-width: 360px) and (max-width: 452px){
+
+    .sobre {
+      background: none;
+      min-height: 650px;
+      background-color: #041024;
+    }
+
+    #mini-sobre {
+      padding: 100px 0 100px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #mini-sobre img{
+      display: none;
+    }
+
+    .sobre div div:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+
+    .sobre h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 35px;
+      font-weight: bold;
+      color: #f2f2f2;
+      text-shadow: -1px 10px 4px #9C40F3;
+      margin-bottom: 45px;
+    }
+
+    .sobre div p {
+      font-size: 20px;
+      text-align: center;
+      line-height: 30px;
+      color: #f2f2f2;
+
+    }
+
+    .sobre img {
+      width: 40%;
+      height: 40%;
+    }
+
+
+
+
+    .slideSobre {
+      background: none;
+    }
+
+    .questoes {
+
+      background: none;
+
+    }
+
+    .questoes div {
+      width: 100%;
+      height: 620px;
+      /* background-color: #190B59; */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .questoes div div {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      width: 75%;
+      height: 75%;
+    }
+
+
+
+    .questoes h1 {
+      font-size: 30px;
+      margin-top: 40px;
+      color: #f2f2f2;
+      font-weight: bold;
+      text-align: center;
+    }
+
+
+    .questoes div p {
+      width: 90%;
+      margin: 20% 0;
+      font-size: 21px;
+    }
+
+
+    .questoes div img {
+      width: 90%;
+      border-radius: 10px 20px;
+    }
+
+    .line {
+      min-height: 250px;
+    }
+
+
+
+    .equipe {
+      background: url(../img/fndDevs.png) no-repeat center;
+      background-attachment: fixed;
+      max-width: 2000px;
+    }
+
+    .equipe h1 {
+      font-size: 45px;
+      font-weight: bold;
+      color: #f2f2f2;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .equipe img {
+      width: 250px;
+    }
+
+
+    .devs {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  
+
+  @media (min-width: 453px) and (max-width: 701px) {
+
+    .sobre {
+      background: none;
+      min-height: 650px;
+      background-color: #041024;
+    }
+
+    #mini-sobre {
+      padding: 100px 0 100px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #mini-sobre img{
+      display: none;
+    }
+
+    .sobre div div:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+
+    .sobre h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 45px;
+      font-weight: bold;
+      color: #f2f2f2;
+      text-shadow: -1px 10px 4px #9C40F3;
+      margin-bottom: 45px;
+    }
+
+    .sobre div p {
+      font-size: 20px;
+      text-align: center;
+      line-height: 30px;
+      color: #f2f2f2;
+
+    }
+
+    .sobre img {
+      width: 40%;
+      height: 40%;
+    }
+
+
+
+
+    .slideSobre {
+      background: none;
+    }
+
+    .questoes {
+
+      background: none;
+
+    }
+
+    .questoes div {
+      width: 100%;
+      height: 620px;
+      /* background-color: #190B59; */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .questoes div div {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      width: 75%;
+      height: 75%;
+    }
+
+
+
+    .questoes h1 {
+      font-size: 40px;
+      margin-top: 65px;
+      color: #f2f2f2;
+      font-weight: bold;
+      text-align: center;
+    }
+
+
+    .questoes div p {
+      width: 90%;
+      margin: 20% 0;
+    }
+
+
+    .questoes div img {
+      width: 90%;
+      border-radius: 10px 20px;
+    }
+
+    .line {
+      min-height: 250px;
+    }
+
+
+
+    .equipe {
+      background: url(../img/fndDevs.png) no-repeat center;
+      background-attachment: fixed;
+      max-width: 2000px;
+    }
+
+    .equipe h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: #f2f2f2;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .equipe img {
+      width: 280px;
+    }
+
+
+    .devs {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+
+  
+
+  /*------------------------------------------------------------------------------------- ^ MEDIA PARA 480 ATÉ 701 ^ ----------------------------------------------------------------------------------------------------------------- */
+
+  @media (min-width: 701px) and (max-width: 780px) {
+    .sobre {
+      background: none;
+      min-height: 650px;
+      background-color: #041024;
+      justify-content: center;
+    }
+
+    #mini-sobre {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+    #mini-sobre img{
+      display: none;
+    }
+
+
+  .sobre h1{
+    text-align: center;
+  }
+
+  .sobre div div:nth-child(1) {
+    width: 90%;
+    margin-top: 7%;
+  }
+
+  .sobre div p {
+    line-height: 35px;
+    font-size: 25px;
+  }
+
+  .questoes {
+    background: none;
+  }
+
+  .questoes div{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .questoes div div{
+    width: 65%;
+  }
+
+  .questoes div p{
+    width: 90%;
+    margin: 5% 0;
+
+  }
+
+  .slideSobre {
+    margin: 0;
+  }
+
+  .devs {
+    flex-direction: column;
+  }
+
+  .line{
+    min-height: 250px;
+  }
+
+  }
+
+  @media (min-width: 780px) and (max-width: 1139px) {
+    .sobre {
+      background: none;
+      min-height: 650px;
+      background-color: #041024;
+      justify-content: center;
+    }
+
+    #mini-sobre {
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+  }
+    #mini-sobre img{
+      display: block;
+      width: 45%;
+      height: 0%;
+    }
+
+
+  .sobre h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .sobre div div:nth-child(1) {
+    width: 45%;
+    margin-top: 0;
+  }
+
+  .sobre div p {
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  .questoes {
+    background: none;
+  }
+
+  .questoes div{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .questoes div div{
+    width: 65%;
+  }
+
+  .questoes div p{
+    width: 90%;
+    margin: 5% 0;
+
+  }
+
+  .slideSobre {
+    margin: 0;
+  }
+
+  .devs {
+    flex-direction: column;
+  }
+
+  .line{
+    min-height: 250px;
+  }
+
+  }
+
+
+  @media (min-width: 1140px) and (max-width: 1199px) {
+    .sobre {
+      background: none;
+      min-height: 650px;
+      background-color: #041024;
+      justify-content: center;
+    }
+
+    #mini-sobre {
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+  }
+    #mini-sobre img{
+      display: block;
+      width: 45%;
+      height: 0%;
+    }
+
+
+  .sobre h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .sobre div div:nth-child(1) {
+    width: 45%;
+    margin-top: 0;
+  }
+
+  .sobre div p {
+    line-height: 30px;
+    font-size: 25px;
+  }
+
+  .questoes {
+    background: none;
+  }
+
+  .questoes div{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .questoes div div{
+    width: 65%;
+  }
+
+  .questoes div p{
+    width: 90%;
+    margin: 5% 0;
+
+  }
+
+  .slideSobre {
+    margin: 0;
+  }
+
+  .devs {
+    flex-direction: column;
+  }
+
+  .line{
+    min-height: 250px;
+  }
+
+  }
+
+  @media (min-width: 1201px) and (max-width: 1680px) {
+    .sobre{
+      background: none;
+      background-color: #041024;
+    }
+
+
+    #mini-sobre img{
+      display: none;
+    }
+
+    #mini-sobre{
+      justify-content: space-around;
+    }
+
+    .equipe img{
+      width: 250px;
+    }
+
+    .questoes{
+      background: none;
+      background-color: #041024;
+      align-items: 0;
+      height: auto;
+
+    }
+
+    .questoes div{
+      margin-top: 0;
+      border-radius: 20px;
+    }
+
+    .sobre2{
+      min-height: auto;
+    }
+  }
+
+  @media (min-width: 1680px) and (max-width: 1920px) {
+    .sobre img{
+      display: none;
+    }
+  }
+
+  
